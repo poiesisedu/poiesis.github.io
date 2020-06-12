@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\..\\..\\Downloads\\sunrise-scroll-animation-with-canvas-and-skrollr-js\\sunrise-scroll-animation-with-canvas-and-skrollr-js\\dist"
+		},
+		{
+			"path": "..\\..\\..\\Downloads\\sunrise-scroll-animation-with-canvas-and-skrollr-js\\sunrise-scroll-animation-with-canvas-and-skrollr-js\\src"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "poiesis"
+	}
+}

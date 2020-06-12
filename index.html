@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Sunrise scroll animation with canvas and skrollr.js</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<canvas></canvas>
+<div id="skrollr-body">
+  <div class="sky-container skrollable skrollable-between" 
+       data-0="background: linear-gradient(rgba(0,0,0,0) 0%, rgba(0,0,0,0.3) 67%, rgba(0,0,0,0.3) 67%, rgba(0,0,0,1)  100%);" 
+       data-500="background: linear-gradient(rgba(0,0,0,0.8) 0%, rgba(0,79,132,1) 50%, rgba(0,79,132,1) 67%, rgba(247,164,39,1) 100%);" 
+       data-800="background: linear-gradient(rgba(73,105,221,1) 25%, rgba(0,165,255,1) 50%, rgba(203,205,219,1) 85%, rgba(252,206,40,1) 100%);"
+       data-900="background: linear-gradient(rgba(70,120,242,1) 10%, rgba(119,178,249,1) 43%, rgba(150,182,221,1) 88%, rgba(209,190,96,1) 100%)"
+       data-1300="background: linear-gradient(rgba(0,112,249,1) 2%, rgba(91,173,255,1) 48%, rgba(91,173,255,1) 48%, rgba(168,220,255,1) 100%);">
+       </div>
+  
+  <div class="sun skrollable skrollable-between" data-0="bottom:-100%; box-shadow: 0px 0px 40px 15px rgba(255,212,0,1);" data-500="bottom: -10%; box-shadow: 0px 0px 40px 15px rgba(255,212,0,1);" data-800="bottom: 5%; box-shadow: 0px 0px 40px 15px rgba(255,245,158,1);" data-1300="bottom:50%; box-shadow: 0px 0px 40px 15px rgba(255,255,255,1);">
+    <a href="https://square.site/book/TP0XW0QF29YX7/poiesis">
+
+    <div class="ray_box">
+        <div class="ray ray1"></div>
+        <div class="ray ray2"></div>
+        <div class="ray ray3"></div>
+        <div class="ray ray4"></div>
+        <div class="ray ray5"></div>
+        <div class="ray ray6"></div>
+        <div class="ray ray7"></div>
+        <div class="ray ray8"></div>
+        <div class="ray ray9"></div>
+        <div class="ray ray10">
+          
+      </div>
+    </div>
+</div>
+</div>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js"></script>
+<script type="text/javascript">
+	var s = skrollr.init();
+	</script>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
