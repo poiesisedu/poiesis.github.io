@@ -1,4 +1,4 @@
-var viewMode = getCookie("view-mode");
+
 
 var canvas = document.querySelector('canvas');
 
