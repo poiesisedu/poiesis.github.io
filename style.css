@@ -2,6 +2,11 @@ html, body {
   margin: 0;
 }
 
+.skrollr-body {
+ 
+}
+
+
 canvas {
   border: 1px solid black;
   background: black;
@@ -130,23 +135,14 @@ canvas {
 .wavewrapper {
   height: 100vh;
   width: 100vw;
-  position: fixed;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  border-radius: 5px;
-  background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
-  overflow: hidden;
-}
-
-.wave {
-  width: 1000px;
-  height: 1025px;
   position: absolute;
-  top: -25%;
-  left: 50%;
+  bottom: 10px;
+  left: 90%;
+  top: 90%;
+  transform: translate(-80%, -80%);
+  border-radius: 5px;
   margin-left: -500px;
-  margin-top: -500px;
+  margin-top: -5000px;
   border-radius: 35%;
   background: rgba(255, 255, 255, .75);
   animation: wave 15s infinite linear;
