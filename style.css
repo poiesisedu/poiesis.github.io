@@ -132,30 +132,6 @@ canvas {
   left: -60px;
 }
 
-<<<<<<< HEAD
-.wavewrapper {
-  height: 100vh;
-  width: 100vw;
-  position: absolute;
-  bottom: 10px;
-  left: 90%;
-  top: 90%;
-  transform: translate(-80%, -80%);
-  border-radius: 5px;
-  margin-left: -500px;
-  margin-top: -5000px;
-  border-radius: 35%;
-  background: rgba(255, 255, 255, .75);
-  animation: wave 15s infinite linear;
-}
-
-@keyframes wave {
-  from { transform: rotate(0deg);}
-  from { transform: rotate(360deg);}
-}
-
-=======
->>>>>>> parent of 1d42db2... wave
 @-webkit-keyframes ray_anim {
   0% {
     -webkit-transform: rotate(0deg);
